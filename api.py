@@ -321,14 +321,7 @@ def upload_round():
 
 
 if __name__ == '__main__':
-    print("\n" + "=" * 60)
-    print("Excel to Firestore API Server")
-    print("=" * 60)
-    print("Endpoints:")
-    print("  GET  /api/health       - Health check")
-    print("  POST /api/upload-round - Upload Excel round data")
-    print("Port: 5005 (changed from 5000 to avoid conflict with Auth service)")
-    print("=" * 60 + "\n")
+    # Startup banner removed
     # Use PORT from environment (for Render/cloud deployment) or default to 5001
     port = int(os.environ.get('PORT', 5001))
     app.run(host='0.0.0.0', port=port, debug=False)
