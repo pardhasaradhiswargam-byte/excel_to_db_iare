@@ -11,7 +11,7 @@ from excel_utils import (
     generate_student_id, is_empty_value
 )
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)
 
 

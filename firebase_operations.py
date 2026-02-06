@@ -11,7 +11,7 @@ from datetime import datetime
 from config import FIREBASE_CREDENTIALS_PATH, FIRESTORE_BATCH_SIZE
 from excel_utils import generate_company_year_id, generate_round_id, generate_row_id, clean_dict
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)
 
 
