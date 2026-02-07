@@ -36,7 +36,8 @@ CORS(app,
                  "http://localhost:5000",
                  "https://excel-to-db-iare.onrender.com",
                  "https://ai-to-db-iare.onrender.com",
-                 "https://authentication-for-iare.onrender.com"
+                 "https://authentication-for-iare.onrender.com",
+                 "https://frontend-iare-pat.vercel.app"
              ],
              "allow_headers": ["Content-Type", "Authorization"],
              "supports_credentials": True
@@ -326,3 +327,4 @@ if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5001))
     app.run(host='0.0.0.0', port=port, debug=False)
   # ← Changed port to 5005
+
